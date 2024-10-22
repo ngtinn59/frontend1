@@ -1,0 +1,34 @@
+/* Đối với màn hình nhỏ hơn hoặc bằng 992px */
+@media screen and (max-width: 992px) {
+    .right-part {
+        display: none; /* Ẩn phần tử .right-part trên màn hình nhỏ */
+    }
+    .left-part {
+        width: 100%; /* Đặt chiều rộng của .left-part thành 100% */
+    }
+}
+
+/* Đối với màn hình lớn hơn 992px */
+@media screen and (min-width: 992px) {
+    .right-part {
+        width: 30%; /* Đặt chiều rộng của .right-part thành 30% */
+        float: right; /* Đẩy phần tử .right-part về phía bên phải */
+    }
+    .left-part {
+        width: 70%; /* Đặt chiều rộng của .left-part thành 70% */
+        float: left; /* Đẩy phần tử .left-part về phía bên trái */
+    }
+}
+
+/* Hiệu ứng zoom cho thẻ */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px; /* Thêm góc bo tròn cho thẻ */
+    overflow: hidden; /* Đảm bảo nội dung không vượt ra ngoài viền thẻ */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Tăng kích thước lên 5% */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Tăng cường bóng */
+    z-index: 10; /* Đảm bảo thẻ nổi bật hơn so với các phần tử khác */
+}

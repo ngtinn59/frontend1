@@ -1,0 +1,104 @@
+/* General Style */
+
+.cv-container {
+  width: 850px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 2px solid #007bff;
+  background-color: #f7f7f7;
+  border-radius: 15px 15px 0 0;
+}
+
+.avatar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+}
+
+.cv-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  border-bottom: 1px solid #007bff;
+  margin-bottom: 10px;
+}
+
+.cv-content {
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 0 0 15px 15px;
+}
+
+.cv-section {
+  margin-bottom: 20px;
+}
+
+.cv-subsection {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 5px 0;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+.button-group {
+  text-align: right;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  margin: 20px 0;
+  border-top: 2px solid #007bff;
+}
+
+@media (max-width: 768px) {
+  .cv-container {
+    width: 100%;
+  }
+}

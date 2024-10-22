@@ -1,0 +1,21 @@
+.bg {
+  clip-path: polygon(100% 0, 100% 59%, 13% 68%, 0 100%, 0 0);
+  background-color: #012a4a;
+  height: 550px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-2 {
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  background-color: #cccccc;
+  height: 150px;
+  width: 100%;
+  z-index: -1;
+}
+
+.text-blue {
+  color: #012a4a !important;
+}

@@ -1,0 +1,16 @@
+.bg-minimal {
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 100%);
+  background-color: #cccc;
+  height: 150px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.text-red {
+  color: #ed1c2f !important;
+}
+
+.mb-10 {
+  margin-bottom: 62px;
+}

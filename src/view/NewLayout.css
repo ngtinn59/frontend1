@@ -1,0 +1,64 @@
+/* NewLayout.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Chiều cao toàn màn hình */
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Sử dụng font chữ Montserrat */
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.who {
+  /* Bỏ thuộc tính height và width cố định để dễ dàng căn giữa */
+
+  display: flex;
+  flex-direction: column; /* Để căn giữa các phần tử con theo cột */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+}
+
+.who2 {
+  margin-top: 50px;
+}
+
+.welcome h1 {
+  color: #ffffff;
+  font-size: 6rem;
+  margin-bottom: 20px;
+  font-weight: 700; /* In đậm tiêu đề */
+}
+
+.welcome p {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  font-weight: 600; /* In đậm đoạn văn (nếu muốn) */
+}
+
+.welcome button {
+  background-color: #ff7824;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: background-color 0.3s ease;
+  padding: 15px 30px;
+  font-weight: 600; /* In đậm chữ trên nút */
+}
+
+.welcome button:hover {
+  background-color: #dbe2ea;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Tạo khoảng cách giữa các nút */
+}

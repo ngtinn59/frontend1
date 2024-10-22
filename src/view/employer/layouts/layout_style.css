@@ -1,0 +1,82 @@
+@media screen and (min-width: 992px) {
+  .menu-part {
+    width: 20%;
+    height: 100vh;
+  }
+
+  .content-part {
+    width: 80%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+.employ {
+  background-image: url('../../image/employer.png'); /* Đổi hình nền chất lượng cao */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Tạo nền trắng mờ cho thanh điều hướng */
+}
+
+.navbar-brand {
+  font-size: 28px; /* Tăng kích thước chữ */
+  color: #f85a40; /* Màu chữ nổi bật */
+  font-weight: bold;
+}
+
+.menu-part {
+  background-color: rgba(255, 255, 255, 0.95); /* Nền menu trắng mờ */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ để menu nổi bật */
+}
+
+.menu-part div {
+  transition: background-color 0.3s, color 0.3s; /* Hiệu ứng mượt mà khi hover */
+}
+
+.pointer:hover {
+  background-color: #f1f1f1; /* Đổi màu khi hover */
+}
+
+.hover-bgt-light:hover {
+  background-color: #f85a40; /* Đổi màu nền khi hover */
+  color: white;
+}
+
+.text-main {
+  font-size: 18px; /* Tăng kích thước chữ */
+  color: #333;
+}
+
+.ts-smd {
+  font-size: 20px; /* Tăng kích thước chữ menu */
+}
+
+.fs-5 {
+  font-size: 24px; /* Tăng kích thước biểu tượng */
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.bg-mlight {
+  background-color: #f85a40; /* Nền nổi bật khi active */
+  color: white;
+}
+
+.ts-lg {
+  font-size: 22px; /* Tăng kích thước biểu tượng trong menu */
+}
+
+.pointer {
+  cursor: pointer;
+}

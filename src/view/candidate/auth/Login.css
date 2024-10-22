@@ -1,0 +1,39 @@
+/* Login.css */
+
+/* Cập nhật các kiểu dáng cho modal */
+.custom-modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .custom-modal-header {
+    background-color: #a7c6e7;
+    color: white;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .custom-modal-body {
+    padding: 2rem;
+  }
+  
+  .form-floating input {
+    border-radius: 0.75rem;
+  }
+  
+  .btn-primary {
+    border-radius: 0.75rem;
+  }
+  
+  .btn-close {
+    filter: brightness(0.8);
+  }
+  
+  .btn-close:hover {
+    filter: brightness(1);
+  }
+  
+  .text-danger {
+    font-size: 0.875rem;
+  }
+  

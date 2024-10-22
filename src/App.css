@@ -1,0 +1,59 @@
+/* Enhanced App Styles */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear; /* Faster spin for modern look */
+  }
+}
+
+.App-header {
+  background: linear-gradient(135deg, #1e2a38, #344b6b); /* Gradient background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Larger text for better readability */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.App-link:hover {
+  text-decoration: underline;
+  color: #21a1f1; /* Slightly darker color on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.abc:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased shadow for a modern touch */
+}
+
+.page-body {
+  background: rgba(180, 175, 175, 0.1); /* Lighter background with reduced opacity */
+  backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+  padding: 1rem; /* Add some padding for better spacing */
+}

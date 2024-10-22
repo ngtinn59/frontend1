@@ -1,0 +1,141 @@
+/* color */
+.bg-main {
+  background-color: #0056b3  /* Thay đổi sang xanh dương đậm hơn */
+}
+.bg-mlight {
+  background-color: #e3f2fd !important; /* Xanh dương nhạt hơn */
+}
+.bg-disabled {
+  background-color: #f1f3f5 !important; /* Xám sáng hơn */
+}
+.text-main {
+  color: #0e1216 !important; /* Xanh dương đậm hơn */
+}
+.text-mlight {
+  color: #e3f2fd !important; /* Xanh dương nhạt hơn */
+}
+.border-main {
+  border-color: #0056b3 !important; /* Xanh dương đậm hơn */
+}
+.border-mlight {
+  border-color: #e3f2fd !important; /* Xanh dương nhạt hơn */
+}
+/* hover text */
+.item-hover:hover {
+  color: #0056b3 !important; /* Xanh dương đậm hơn */
+}
+.hover-text-bold:hover {
+  font-weight: 700 !important; /* Đậm hơn khi hover */
+}
+.hover-text-main:hover {
+  color: #003d7a !important; /* Xanh dương tối hơn */
+}
+.hover-text-white:hover {
+  color: #ffffff !important; /* Trắng sáng hơn */
+}
+.hover-link:hover {
+  color: #0056b3 !important; /* Xanh dương đậm hơn */
+}
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+/* hover background */
+.hover-bg-1:hover {
+  background-color: #f1f8ff !important; /* Xanh dương nhạt hơn */
+}
+.hover-bg-main:hover {
+  background-color: #003d7a !important; /* Xanh dương tối hơn */
+}
+.hover-bg-light:hover {
+  background-color: #e3f2fd !important; /* Xanh dương nhạt hơn */
+}
+.hover-bg-primary:hover {
+  background-color: #004080 !important; /* Xanh dương đậm hơn */
+}
+
+/* hover border */
+.hover-border-main:hover {
+  border-color: #0056b3 !important; /* Xanh dương đậm hơn */
+}
+
+/* hover shadow */
+.hover-shadow-sm:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important; /* Shadow nhẹ hơn */
+}
+/* font size */
+.ts-xs {
+  font-size: 13px; /* Tăng một chút so với kích thước nhỏ */
+}
+.ts-sm {
+  font-size: 14px; /* Tăng một chút so với kích thước nhỏ */
+}
+.ts-smd {
+  font-size: 16px; /* Tăng một chút so với kích thước trung bình */
+}
+.ts-md {
+  font-size: 18px; /* Đặt kích thước trung bình */
+}
+.ts-lg {
+  font-size: 20px; /* Kích thước lớn hơn cho tiêu đề */
+}
+.ts-xl {
+  font-size: 22px; /* Kích thước rất lớn cho tiêu đề nổi bật */
+}
+.ts-xxl {
+  font-size: 26px; /* Kích thước cực lớn cho tiêu đề lớn */
+}
+.ts-17 {
+  font-size: 17px;
+}
+
+/* font weight */
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-550 {
+  font-weight: 550 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+/* custom cv input, textarea */
+.cv-input {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+}
+.cv-input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+}
+.cv-input:hover {
+  border-color: #0056b3;
+}
+.resize-none {
+  resize: none;
+}
+
+/* custom bootstrap css */
+.form-control:focus {
+  color: #495057;
+  background-color: #ffffff;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+}
+.form-select:focus {
+  color: #495057;
+  background-color: #ffffff;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+}
+/* Font Family */
+body {
+  font-family: 'Roboto', sans-serif; /* Hoặc 'Open Sans', sans-serif */
+}

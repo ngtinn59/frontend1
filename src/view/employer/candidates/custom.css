@@ -1,0 +1,13 @@
+.act-btn-hover:hover {
+    color: blue;
+    background-color: rgba(0, 123, 255, 0.1); /* Tạo nền nhạt khi hover */
+    transform: scale(1.1); /* Tạo hiệu ứng phóng to nhẹ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+    transition: all 0.3s ease-in-out; /* Tạo hiệu ứng chuyển mượt */
+  }
+  
+  .act-btn-hover {
+    color: black; /* Màu ban đầu */
+    transition: all 0.3s ease-in-out; /* Tạo hiệu ứng chuyển mượt khi rời hover */
+  }
+  

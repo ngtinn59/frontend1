@@ -1,0 +1,57 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(92, 88, 88, 0.65); /* Màu nền và độ mờ của overlay */
+  opacity: 0; /* Ẩn overlay ban đầu */
+  transition: opacity 0.3s ease; /* Hiệu ứng chuyển tiếp khi hiển thị overlay */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Hiển thị overlay khi di chuột */
+}
+
+.text-ellipsis {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Số dòng tối đa */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; /* Để văn bản không bị bọc */
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hover-border-main {
+  border-color: #007acc !important;
+}
+
+.hover-shadow-sm {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow-sm:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Thay đổi màu nền khi hover cho các phần tử */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
